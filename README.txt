@@ -7,3 +7,9 @@ Y LA CARPETA 'Pokemones'
 
 PUEDES BORRAR EL ARCHIVO CON EXTENSION '.pickle', 'datos.pickle'
 Y EL CONTENIDO DE LA CARPETA POKEMONES.
+
+SON NECESARIAS LAS SIGUIENTES LIBRERIAS:
+
+- json (pip install json)
+- requests (pip install requests)
+- pickle (pip install PIL)
