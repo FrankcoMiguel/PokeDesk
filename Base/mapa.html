@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+            <html>
+        	<head>
+        		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        		<title>Ejemplo de mapa</title>
+        		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+        		<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+        	</head>
+        	<body style="background-color:#78909C">
+        		<center><h1 style="margin-top:10%;">UBICACION DE LOS POKEMONES</h1></center>
+
+        		<div id="divMap" class="map map-home" style="margin:12px 10% 0px 10%;height:400px;width:80%"></div>
+        		<script>
+        			var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        				osmAttrib = '&copy; <a href="http://adamix.net">Amadis Suarez</a> contributors',
+        				osm = L.tileLayer(osmUrl, {maxZoom: 20, attribution: osmAttrib});
+        			var map = L.map('divMap').setView([19.4398315,-70.8132746], 8).addLayer(osm);
+
+
+
+               L.marker([42.2508949,-71.7995006])
+            			.addTo(map)
+            			.bindPopup('Nombre: pikachu ,edad: 19');
+
+                        // DATOS
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        		</script>
+        		<p>
+        			<center>Mapa realizado por Amadis</center>
+        		</p>
+          </body>
+                    </html>
+                    
