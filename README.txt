@@ -1,14 +1,6 @@
-#SI BORRAS LOS SIGUIENTE DOCUMENTOS, COMPROMETERIAS EL FUNCIONAMIENTO DEL PROGRAMA:
+##POKE DESK - Python Version:
 
-LA CARPETA 'base'
-EL HTML 'mapa'
-EL ARCHIVO CON EXTENSION '.py', Pokedex.py
-Y LA CARPETA 'Pokemones'
-
-PUEDES BORRAR EL ARCHIVO CON EXTENSION '.pickle', 'datos.pickle'
-Y EL CONTENIDO DE LA CARPETA POKEMONES.
-
-SON NECESARIAS LAS SIGUIENTES LIBRERIAS:
+You will need to install the following libraries / modules to run the program:
 
 - json (pip install json)
 - requests (pip install requests)
